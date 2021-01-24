@@ -4,7 +4,7 @@ C language is fast. Let alone parallelism in C. It is a great speed boost especi
 
 Here we will see how we can use or C parallel program in Python using the help of Cython language. Of course, Python has its own libraries, like multiprocessing and threading, to apply concurrency and thread-based parallelism which will speed up python applications greatly. But in case you love C, as much as I do, and you have an existing C code that you want to use in Python quickly without having to write a wrapper for it. Or you usually like to write some C code in your Python applications. In this blog, we will see how to do so easily using Cython.
 
-The final application will have **C** code, **command line** commands, **Cython** wrapper functions and will be called from **Python**. This blog demonstrates how to **combine so many tools together in one application** to achieve **better performance**.
+The weather application is based on https://openweathermap.org/api API. The final application will have **C** code, **command line** commands, **Cython** wrapper functions and will be called from **Python**. This blog demonstrates how to **combine so many tools together in one application** to achieve **better performance**.
 
 We will also have a look at topics like memoization and Python decorators. Let’s get started!
 
